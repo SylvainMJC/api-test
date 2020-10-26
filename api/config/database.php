@@ -14,7 +14,10 @@ class Database{
     private $username = "bc283985bfedac";
     private $password = "b621df3b";
     public $conn;
-  //mysql://bc283985bfedac:b621df3b@eu-cdbr-west-03.cleardb.net/heroku_19d2fdeaff209af?reconnect=true
+    //mysql://bc283985bfedac:b621df3b@eu-cdbr-west-03.cleardb.net/heroku_19d2fdeaff209af?reconnect=true
+    //mysql://bc283985bfedac:b621df3b@eu-cdbr-west-03.cleardb.net/heroku_19d2fdeaff209af?reconnect=true
+    // Commande pour set up le schema sur heroku!
+    //mysql --host=eu-cdbr-west-03.cleardb.net --user=bc283985bfedac --password=b621df3b --reconnect heroku_19d2fdeaff209af < tasks.sql
     // get the database connection
     public function getConnection(){
   
